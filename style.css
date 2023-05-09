@@ -1,0 +1,73 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+  color: gray;
+  background-color: #64477c;
+}
+
+.panelImg1 {
+  background-image: url("img/SpaceImg1.jpg");
+}
+
+.panelImg2 {
+  background-image: url("img/SpaceImg2.jpg");
+}
+
+.panelImg3 {
+  background-image: url("img/SpaceImg3.jpg");
+}
+
+.panelImg4 {
+  background-image: url("img/SpaceImg4.jpg");
+}
+
+.panelImg5 {
+  background-image: url("img/SpaceImg5.jpg");
+}
+
+.panelImg6 {
+  background-image: url("img/SpaceImg6.jpg");
+}
+
+.container {
+  display: flex;
+  width: 90vw;
+  align-items: center;
+  justify-content: center;
+}
+
+.panel {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 80vh;
+  border-radius: 80px;
+  cursor: pointer;
+  flex: 0.5;
+  margin: 10px;
+  position: relative;
+  transition: flex 0.9s;
+}
+.panel:active {
+  flex: 5;
+}
+.panel:active h3 {
+  opacity: 1;
+}
+.panel h3 {
+  font-size: 24px;
+  position: absolute;
+  bottom: 20px;
+  left: 30px;
+  margin: 0;
+  opacity: 0;
+}/*# sourceMappingURL=style.css.map */
